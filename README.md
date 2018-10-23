@@ -10,4 +10,4 @@ Docker image for TGMM, using nvidia-docker
 ./test.sh 
 
 ## Usage
-nvidia-docker run -v $(pwd)/data:/usr/src/app/TGMM/data -v $(pwd)/results:/usr/src/app/TGMM/TGMMruns -it TGMM FIRST_TP LAST_TP NB_CPU
+nvidia-docker run -v PATH/TO/data:/usr/src/app/TGMM/data -v PATH/TO/results:/usr/src/app/TGMM/TGMMruns -it TGMM FIRST_TP LAST_TP NB_CPU
